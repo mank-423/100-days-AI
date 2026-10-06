@@ -1,5 +1,5 @@
 import time
-from fastapi import FastAPI, Query, Request
+from fastapi import FastAPI, Query, Request, Depends
 from enum import Enum
 from pydantic import BaseModel, Field
 from typing import Annotated, Literal
@@ -45,6 +45,10 @@ class FilterParams(BaseModel):
 fake_items_db = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}]
 
 
+def get_db():
+    return fake_items_db
+
+
 #Declaring middlewares
 @app.middleware("http")
 async def add_process_time_header(request: Request, call_next):
@@ -71,9 +75,9 @@ async def read_items(filter_query: Annotated[FilterParams, Query()]):
     return filter_query
 
 @app.get("/items/me")
-async def meItem():
+async def meItem(db = Depends(get_db)):
     # await asyncio.sleep(10)
-    return {"me": "item"}
+    return {"me": db[0]}
 
 
 @app.get("/items/{item_id}")
