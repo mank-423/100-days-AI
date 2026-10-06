@@ -44,9 +44,13 @@ class FilterParams(BaseModel):
 
 fake_items_db = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}]
 
-
+# function used for dependency injection
 def get_db():
     return fake_items_db
+
+# function for dependency chaining creation
+def get_current_user(user = Depends(get_db)):
+    return user[0]
 
 
 #Declaring middlewares
@@ -75,9 +79,9 @@ async def read_items(filter_query: Annotated[FilterParams, Query()]):
     return filter_query
 
 @app.get("/items/me")
-async def meItem(db = Depends(get_db)):
+async def meItem(user = Depends(get_current_user)):
     # await asyncio.sleep(10)
-    return {"me": db[0]}
+    return {"me": user}
 
 
 @app.get("/items/{item_id}")
@@ -86,9 +90,12 @@ async def read_item(item_id: int):
 
 @app.get("/models/{model_name}")
 async def modelName(model_name: ModelName):
-    return {
-        "name": model_name
-    }
+    try:
+        return {
+                "name": model_name
+            }
+    except Exception as error:
+        return {"error": str(error)}
 
 
 @app.post("/")
