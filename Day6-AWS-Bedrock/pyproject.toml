@@ -1,0 +1,20 @@
+[project]
+name = "day6-aws-bedrock"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mayank Kumar", email = "mk4664348@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic[bedrock]>=1.11.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+day6-aws-bedrock = "day6_aws_bedrock:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
