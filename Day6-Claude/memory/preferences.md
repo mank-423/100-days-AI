@@ -1,0 +1,1 @@
+Explain concepts using simple language and practical examples.

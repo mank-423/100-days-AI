@@ -1,0 +1,1 @@
+The student is learning Python, RAG and AI agents.
