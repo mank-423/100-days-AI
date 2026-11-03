@@ -10,7 +10,7 @@
     "id": "book.txt-flashcards",
     "chapter": "book.txt",
     "kind": "flashcards",
-    "passes": false,
-    "attempts": 0
+    "passes": true,
+    "attempts": 1
   }
 ]

@@ -1,0 +1,30 @@
+[
+  {
+    "question": "What is the cell theory and what are its three main principles?",
+    "answer": "Cell theory states that: (1) all living organisms are composed of one or more cells, (2) the cell is the basic unit of structure and function in living organisms, and (3) new cells arise from existing cells."
+  },
+  {
+    "question": "Why is water considered essential for life in cells?",
+    "answer": "Water is essential because it acts as a solvent for biological molecules, participates in chemical reactions (hydrolysis and condensation), helps regulate temperature by absorbing heat, and its polarity allows it to form hydrogen bonds with other substances."
+  },
+  {
+    "question": "What are the four major categories of biological molecules and provide one example of each?",
+    "answer": "The four categories are: (1) Carbohydrates (e.g., glucose for energy or cellulose for structure), (2) Lipids (e.g., phospholipids for membranes or triglycerides for energy storage), (3) Proteins (e.g., enzymes for catalyzing reactions), and (4) Nucleic acids (e.g., DNA for storing genetic information)."
+  },
+  {
+    "question": "What is the relationship between a protein's amino acid sequence and its function?",
+    "answer": "A protein's function depends strongly on its three-dimensional structure, which is determined by its amino acid sequence and the chemical environment in which it folds. Different amino acid sequences result in different protein structures and therefore different functions."
+  },
+  {
+    "question": "List six chemical elements that are particularly important for building cellular structures.",
+    "answer": "The six key elements are carbon, hydrogen, oxygen, nitrogen, phosphorus, and sulfur, as they form the molecular frameworks of biological systems."
+  },
+  {
+    "question": "How do lipids contribute to cellular membrane structure?",
+    "answer": "Phospholipids form the fundamental framework of cellular membranes. Additionally, steroids such as cholesterol influence membrane properties."
+  },
+  {
+    "question": "What are some essential life processes that cells perform?",
+    "answer": "Essential cellular processes include: obtaining energy, maintaining internal stability, responding to environmental changes, growing, reproducing, and passing genetic information to future generations."
+  }
+]
