@@ -1,0 +1,16 @@
+[
+  {
+    "id": "book.txt-summary",
+    "chapter": "book.txt",
+    "kind": "summary",
+    "passes": true,
+    "attempts": 1
+  },
+  {
+    "id": "book.txt-flashcards",
+    "chapter": "book.txt",
+    "kind": "flashcards",
+    "passes": false,
+    "attempts": 0
+  }
+]
