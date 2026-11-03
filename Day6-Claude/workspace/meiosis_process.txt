@@ -1,0 +1,31 @@
+
+MEIOSIS - PROCESS AND STAGES
+
+Meiosis takes place through two divisions.
+
+MEIOSIS I (Reductional Division)
+
+1. Prophase I:
+   - Homologous chromosomes pair up.
+   - Crossing over occurs between non-sister chromatids.
+   - Genetic material is exchanged.
+
+2. Metaphase I:
+   - Homologous chromosome pairs align at the cell's equator.
+   - Their orientation is random.
+
+3. Anaphase I:
+   - Homologous chromosomes move to opposite poles.
+   - Sister chromatids remain attached.
+
+4. Telophase I:
+   - The cell divides into two haploid cells.
+
+MEIOSIS II (Equational Division)
+
+1. Prophase II: Chromosomes condense.
+2. Metaphase II: Chromosomes align individually.
+3. Anaphase II: Sister chromatids separate.
+4. Telophase II: Cells divide.
+
+The final result is usually four haploid cells.

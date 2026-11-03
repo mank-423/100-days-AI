@@ -1,0 +1,17 @@
+
+MEIOSIS - BASIC OVERVIEW
+
+Meiosis is a type of cell division that produces four haploid cells from one diploid parent cell.
+
+A diploid cell contains two sets of chromosomes (2n), while a haploid cell contains one set (n).
+
+In humans:
+- Most body cells contain 46 chromosomes.
+- Human gametes (sperm and egg) contain 23 chromosomes.
+- Meiosis reduces the chromosome number from 46 to 23.
+
+Meiosis consists of two successive divisions:
+1. Meiosis I: Homologous chromosomes separate.
+2. Meiosis II: Sister chromatids separate.
+
+Unlike mitosis, meiosis produces genetically varied cells.

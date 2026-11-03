@@ -1,0 +1,22 @@
+
+MEIOSIS - BIOLOGICAL SIGNIFICANCE
+
+Meiosis is essential for sexual reproduction.
+
+Its major functions include:
+
+1. Chromosome Number Maintenance:
+   Meiosis produces haploid gametes. When fertilization occurs, two haploid gametes combine to restore the diploid chromosome number.
+
+2. Genetic Variation Through Crossing Over:
+   During Prophase I, homologous chromosomes exchange genetic material. This creates new combinations of alleles.
+
+3. Independent Assortment:
+   Homologous chromosome pairs align randomly during Metaphase I. This produces different combinations of maternal and paternal chromosomes.
+
+4. Evolution:
+   Genetic variation produced by meiosis contributes to variation within populations and provides material for natural selection.
+
+5. Comparison with Mitosis:
+   Mitosis generally produces two genetically similar daughter cells.
+   Meiosis generally produces four genetically different haploid cells.
